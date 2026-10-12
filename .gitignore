@@ -1,0 +1,18 @@
+# KiCad generated files
+*-backups/
+*.lck
+fp-info-cache
+sym-lib-table-cache.lib
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Local file history
+.history/

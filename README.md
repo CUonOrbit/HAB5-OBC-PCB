@@ -23,7 +23,7 @@ Schematics are modularized into functional hierarchical sheets to isolate compon
 - Power Systems: Voltage regulation, power distribution, and the INA228 power monitor.
 - Positional: IMU and barometer.
 - Temperature: Temperature sensors.
-- Data Logging: External NOR flash memory storage.
+- Data Logging: External NOR flash memory and microSD storage.
 - Debug & Expansion: Programming headers, UART/SWD interfaces, and breakout pins.
 
 Inter-sheet connections (such as I2C, SPI, UART, and power rails) are routed cleanly using hierarchical labels and pins.

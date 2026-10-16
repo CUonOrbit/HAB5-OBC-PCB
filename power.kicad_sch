@@ -161,6 +161,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:INA228AIDGSR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -770,160 +924,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HAB5OBC:0603WAF1002T5E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF1002T5E"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:R0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10KΩ (1002) ±1%"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "0603WAF1002T5E"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C25804"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603WAF1002T5E_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1595,7 +1595,7 @@
 		(uuid "84f790e6-af8a-4260-b3c0-b05ad33c7059")
 	)
 	(junction
-		(at 24.13 82.55)
+		(at 25.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7809860-b694-44c4-b44a-56267c56dbea")
@@ -1662,16 +1662,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 39.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1727a737-290d-4f31-9bd3-4c8e947070ba")
-	)
-	(wire
-		(pts
 			(xy 114.3 30.48) (xy 114.3 29.21)
 		)
 		(stroke
@@ -1692,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 50.8) (xy 27.94 50.8)
+			(xy 26.67 50.8) (xy 30.48 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 71.12) (xy 34.29 71.12)
+			(xy 24.13 71.12) (xy 34.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 82.55) (xy 22.86 82.55)
+			(xy 25.4 82.55) (xy 24.13 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 82.55) (xy 24.13 82.55)
+			(xy 30.48 82.55) (xy 25.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1859,6 +1849,16 @@
 			(type default)
 		)
 		(uuid "a702f730-a112-4ea7-9843-537e5876d88d")
+	)
+	(wire
+		(pts
+			(xy 35.56 50.8) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b142fbe3-84f3-49e3-8339-00c17c6c04f9")
 	)
 	(bus
 		(pts
@@ -1961,7 +1961,7 @@
 		(uuid "23f3876a-dae9-4373-a9b6-db30c7bec9ad")
 	)
 	(label "Bench_IN-"
-		(at 22.86 82.55 180)
+		(at 24.13 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1981,7 +1981,7 @@
 		(uuid "92669ffb-59dc-4b6a-921a-7c42bd9c8fff")
 	)
 	(label "Bench_IN+"
-		(at 22.86 71.12 180)
+		(at 24.13 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2126,7 +2126,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 82.55 0)
+		(at 25.4 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2136,7 +2136,7 @@
 		(dnp no)
 		(uuid "215588df-6f45-4d29-9a3c-4599c6bdf4bb")
 		(property "Reference" "#PWR09"
-			(at 24.13 88.9 0)
+			(at 25.4 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,7 +2147,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.828 85.598 0)
+			(at 22.098 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R2512"
-			(at 24.13 82.55 0)
+			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +2168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 82.55 0)
+			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2179,7 +2179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 82.55 0)
+			(at 25.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2395,8 +2395,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HAB5OBC:0603WAF1002T5E")
-		(at 30.48 82.55 0)
+		(lib_id "Device:R_Small_US")
+		(at 33.02 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2406,7 +2406,7 @@
 		(dnp no)
 		(uuid "3d7239a2-3a37-4342-a852-0f79eea079cf")
 		(property "Reference" "R2"
-			(at 30.734 85.344 0)
+			(at 33.02 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2416,7 +2416,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 30.734 87.122 0)
+			(at 33.274 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2426,7 +2426,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 30.48 90.17 0)
+			(at 33.02 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2437,7 +2437,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 30.48 92.71 0)
+			(at 33.02 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2447,8 +2447,8 @@
 				)
 			)
 		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 30.48 105.41 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 33.02 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 30.48 95.25 0)
+			(at 45.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2470,7 +2470,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 30.48 97.79 0)
+			(at 48.26 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2481,7 +2481,7 @@
 			)
 		)
 		(property "LCSC Part" "C25804"
-			(at 30.48 100.33 0)
+			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3099,8 +3099,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HAB5OBC:0603WAF1002T5E")
-		(at 33.02 50.8 0)
+		(lib_id "Device:R_Small_US")
+		(at 33.02 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3110,7 +3110,7 @@
 		(dnp no)
 		(uuid "e8a7e6b2-ed2b-4346-a346-e6c4ab85da7b")
 		(property "Reference" "R1"
-			(at 33.274 53.594 0)
+			(at 33.274 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3120,7 +3120,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 33.274 55.372 0)
+			(at 33.528 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 33.02 58.42 0)
+			(at 33.02 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3141,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 33.02 60.96 0)
+			(at 33.02 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,8 +3151,8 @@
 				)
 			)
 		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 33.02 73.66 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 33.02 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3163,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 33.02 63.5 0)
+			(at 45.72 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +3174,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 33.02 66.04 0)
+			(at 48.26 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,7 +3185,7 @@
 			)
 		)
 		(property "LCSC Part" "C25804"
-			(at 33.02 68.58 0)
+			(at 50.8 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1516,6 +1516,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "P-FET\n"
+		(exclude_from_sim no)
+		(at 39.116 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "035e7b5f-f867-49b8-a4bb-22da35486b7e")
+	)
+	(text "P-FET\n"
+		(exclude_from_sim no)
+		(at 39.37 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5119b74b-5d67-4c80-808d-2e0244363e8c")
+	)
+	(text "Fuse\n"
+		(exclude_from_sim no)
+		(at 57.15 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6519723f-8996-4acc-97e9-5ff11a448fdc")
+	)
+	(text "Fuse\n"
+		(exclude_from_sim no)
+		(at 57.404 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "85f73115-49d1-497a-a8e3-08d5a3ab10cc")
+	)
+	(text "Shunt\n"
+		(exclude_from_sim no)
+		(at 73.914 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "bfeb8a2d-32bc-423a-9dbe-e585de80ad88")
+	)
 	(junction
 		(at 67.31 41.91)
 		(diameter 0)
@@ -1541,7 +1601,7 @@
 		(uuid "c7809860-b694-44c4-b44a-56267c56dbea")
 	)
 	(junction
-		(at 80.01 16.51)
+		(at 85.09 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d26d7dd5-473c-4266-92f6-470ed8dbca67")
@@ -1553,7 +1613,7 @@
 		(uuid "e0d1f743-ff9e-4d71-ad5e-68f4093e8fcf")
 	)
 	(junction
-		(at 80.01 21.59)
+		(at 85.09 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f711b6b0-5ed1-4cb3-819c-7f52fdb2da18")
@@ -1692,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 21.59) (xy 88.9 21.59)
+			(xy 85.09 21.59) (xy 88.9 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 16.51) (xy 88.9 16.51)
+			(xy 85.09 16.51) (xy 88.9 16.51)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2508,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 80.01 16.51 0)
+		(at 85.09 16.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2458,7 +2518,7 @@
 		(dnp no)
 		(uuid "5a1319b9-7411-49d4-ac83-eb3e93fce6f7")
 		(property "Reference" "#PWR06"
-			(at 80.01 20.32 0)
+			(at 85.09 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2469,7 +2529,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 79.756 13.208 0)
+			(at 84.836 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2479,7 +2539,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R2512"
-			(at 80.01 16.51 0)
+			(at 85.09 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2490,7 +2550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 16.51 0)
+			(at 85.09 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 80.01 16.51 0)
+			(at 85.09 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2637,7 +2697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 21.59 0)
+		(at 85.09 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2647,7 +2707,7 @@
 		(dnp no)
 		(uuid "8e02987d-a949-4ece-9805-19364d3fb412")
 		(property "Reference" "#PWR05"
-			(at 80.01 27.94 0)
+			(at 85.09 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +2718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.708 24.638 0)
+			(at 81.788 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2668,7 +2728,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R2512"
-			(at 80.01 21.59 0)
+			(at 85.09 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 21.59 0)
+			(at 85.09 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,7 +2750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 21.59 0)
+			(at 85.09 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,10 +2972,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d224adc4-55c4-4c04-a4b7-3ae9d6bc1d08")
 		(property "Reference" "U3"
-			(at 100.33 11.43 0)
+			(at 100.33 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2925,7 +2984,7 @@
 			)
 		)
 		(property "Value" "INA228AIDGSR"
-			(at 100.33 13.97 0)
+			(at 100.33 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3269,7 +3328,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 80.01 19.05 180)
+		(at 85.09 19.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3279,7 +3338,7 @@
 		(dnp no)
 		(uuid "ee974933-66d1-4cda-b752-2a8c57231067")
 		(property "Reference" "C1"
-			(at 73.914 18.034 0)
+			(at 78.994 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3290,7 +3349,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.882 19.812 0)
+			(at 76.962 19.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3301,7 +3360,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0603"
-			(at 80.01 19.05 0)
+			(at 85.09 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3312,7 +3371,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 80.01 19.05 0)
+			(at 85.09 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,7 +3382,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 80.01 8.89 0)
+			(at 85.09 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +3393,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 80.01 6.35 0)
+			(at 85.09 6.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3404,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 80.01 3.81 0)
+			(at 85.09 3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3356,7 +3415,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 80.01 1.27 0)
+			(at 85.09 1.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

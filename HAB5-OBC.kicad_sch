@@ -3049,16 +3049,10 @@
 		)
 	)
 	(junction
-		(at 80.01 62.23)
+		(at 95.25 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00483343-9c67-4655-bdd0-fa8ada78183f")
-	)
-	(junction
-		(at 109.22 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "046a95c7-ebc3-4a8a-b126-fec3933da6c6")
 	)
 	(junction
 		(at 95.25 113.03)
@@ -3097,16 +3091,10 @@
 		(uuid "492f1643-2738-4fe7-800b-8b7b3c34357d")
 	)
 	(junction
-		(at 87.63 62.23)
+		(at 125.73 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "87e8ef75-5508-4352-9d43-7224987d65d2")
-	)
-	(junction
-		(at 101.6 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2e0c8bc-4dba-47d9-b73f-b03d94a79899")
+		(uuid "9ec0aedf-d65e-4118-a2f7-f3466f8f21a0")
 	)
 	(junction
 		(at 121.92 147.32)
@@ -3115,10 +3103,22 @@
 		(uuid "ce938bbe-27ce-444a-a591-2a913a1f6443")
 	)
 	(junction
-		(at 101.6 62.23)
+		(at 106.68 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da6ae2b9-9787-4c4a-8c93-2009672f4ff1")
+	)
+	(junction
+		(at 125.73 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc8fe552-46ad-48ff-8460-075944da9983")
+	)
+	(junction
+		(at 125.73 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa5767d4-e3cb-4258-8700-ea31fc3566e1")
 	)
 	(bus_entry
 		(at 281.94 59.69)
@@ -3319,16 +3319,6 @@
 			(type default)
 		)
 		(uuid "056d1dc8-16a1-4f01-8829-aa11e8870527")
-	)
-	(wire
-		(pts
-			(xy 87.63 74.93) (xy 101.6 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05a391f2-0926-4c6f-aeb2-ad38057aab76")
 	)
 	(wire
 		(pts
@@ -3602,6 +3592,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 69.85) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32cf9ae8-4a10-4495-8228-7afe1e92d20b")
+	)
+	(wire
+		(pts
 			(xy 125.73 135.89) (xy 121.92 135.89)
 		)
 		(stroke
@@ -3722,6 +3722,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 57.15) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1afeeb-fd1d-4947-9ef1-f91cb4aa87e7")
+	)
+	(wire
+		(pts
 			(xy 99.06 156.21) (xy 113.03 156.21)
 		)
 		(stroke
@@ -3802,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 109.22 57.15)
+			(xy 125.73 57.15) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3902,16 +3912,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 62.23) (xy 87.63 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c1c5742-1ef8-4f03-b70b-134af257e0da")
-	)
-	(wire
-		(pts
 			(xy -78.74 248.92) (xy -78.74 254)
 		)
 		(stroke
@@ -3922,7 +3922,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 67.31) (xy 125.73 67.31)
+			(xy 114.3 69.85) (xy 115.57 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3952,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 80.01 62.23)
+			(xy 85.09 62.23) (xy 125.73 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3992,23 +3992,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 125.73 62.23)
+			(xy 125.73 62.23) (xy 125.73 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a30fe97f-f828-4a62-89c9-040e98d20676")
-	)
-	(wire
-		(pts
-			(xy 87.63 50.8) (xy 87.63 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a34b1cdf-9a08-4713-ab3c-ae8877e4593b")
+		(uuid "9d28a656-460d-4438-98e6-8593346bcebe")
 	)
 	(bus
 		(pts
@@ -4019,6 +4009,16 @@
 			(type default)
 		)
 		(uuid "a34f430c-f8ff-47c9-ad51-074e3dcd600b")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b31bcf-fc0e-4eea-9d90-e8e7eec4cad9")
 	)
 	(bus
 		(pts
@@ -4079,16 +4079,6 @@
 			(type default)
 		)
 		(uuid "ae04053c-0686-4686-aca2-039455e27cc3")
-	)
-	(wire
-		(pts
-			(xy 101.6 74.93) (xy 114.3 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1687129-6de1-4e77-948f-999b8ca76e0f")
 	)
 	(wire
 		(pts
@@ -4222,16 +4212,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 50.8) (xy 109.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb6aa36-b7ab-4993-a80b-d8ab778286fe")
-	)
-	(wire
-		(pts
 			(xy 171.45 62.23) (xy 241.3 62.23)
 		)
 		(stroke
@@ -4280,16 +4260,6 @@
 		)
 		(uuid "d5b16460-b4a7-444c-8fd7-f3f02d9ca5ec")
 	)
-	(wire
-		(pts
-			(xy 87.63 74.93) (xy 87.63 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d627ea60-df0a-46e9-a14a-fbfee4a02bf4")
-	)
 	(bus
 		(pts
 			(xy 116.84 260.35) (xy 116.84 184.15)
@@ -4309,16 +4279,6 @@
 			(type default)
 		)
 		(uuid "e13a78fe-01bb-4518-9e98-0b2b9ddafcb6")
-	)
-	(wire
-		(pts
-			(xy 114.3 74.93) (xy 114.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e91c94-3706-4775-a391-1d1010fcc575")
 	)
 	(wire
 		(pts
@@ -4390,6 +4350,16 @@
 		)
 		(uuid "ee75b350-eb23-4fe8-b91b-4dc354318e9e")
 	)
+	(wire
+		(pts
+			(xy 95.25 60.96) (xy 95.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef53f90b-f769-4979-8b63-3ce1b0fd5ddc")
+	)
 	(bus
 		(pts
 			(xy 116.84 184.15) (xy 243.84 184.15)
@@ -4429,26 +4399,6 @@
 			(type default)
 		)
 		(uuid "f317d0be-da5a-437d-861d-fe9ec895152c")
-	)
-	(wire
-		(pts
-			(xy 109.22 57.15) (xy 109.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b11ec7-89a2-4dcb-a02c-ab53dbb1b5d1")
-	)
-	(wire
-		(pts
-			(xy 87.63 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ca51b1-5d1c-4ffa-9a01-76dee4c6e572")
 	)
 	(wire
 		(pts
@@ -4810,7 +4760,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF4701T5E"
+		(property "Value" "4.7k"
 			(at 185.674 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +4853,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CL05B104KO5NNNC")
-		(at 101.6 69.85 90)
+		(at 109.22 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4911,32 +4861,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f3e89be-7233-4cc0-a0f5-62d98c0c7db4")
 		(property "Reference" "C106"
-			(at 105.41 68.5799 90)
+			(at 108.712 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 105.41 71.1199 90)
+		(property "Value" "100nF"
+			(at 108.712 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "EasyEDA:C0402"
-			(at 109.22 69.85 0)
+			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4947,7 +4894,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
-			(at 111.76 69.85 0)
+			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,7 +4905,7 @@
 			)
 		)
 		(property "Description" "100nF (104) ±10% 16V"
-			(at 101.6 69.85 0)
+			(at 109.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,7 +4916,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 114.3 69.85 0)
+			(at 109.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +4927,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 116.84 69.85 0)
+			(at 109.22 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +4938,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 119.38 69.85 0)
+			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5038,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Value" "1206B475K500NT"
+		(property "Value" "4.7uF"
 			(at 125.73 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5131,7 +5078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 52.07 270)
+		(at 106.68 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5142,7 +5089,7 @@
 		(fields_autoplaced yes)
 		(uuid "15310406-888d-41e3-a4a8-6f6c4dc59e53")
 		(property "Reference" "#PWR118"
-			(at 95.25 52.07 0)
+			(at 106.68 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5153,7 +5100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 52.0699 90)
+			(at 109.22 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5164,7 +5111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 52.07 0)
+			(at 106.68 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5175,7 +5122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 52.07 0)
+			(at 106.68 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5186,7 +5133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 52.07 0)
+			(at 106.68 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG150J500NT"
+		(property "Value" "15pF"
 			(at 33.02 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5464,7 +5411,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF1002TCE"
+		(property "Value" "10k"
 			(at 118.11 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5646,7 +5593,7 @@
 		(dnp no)
 		(uuid "27dcca46-e9ff-4825-9b53-fefa69167a93")
 		(property "Reference" "SW101"
-			(at 91.44 138.176 0)
+			(at 91.44 140.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5655,7 +5602,7 @@
 				)
 			)
 		)
-		(property "Value" "TS-1088-AR02016"
+		(property "Value" ""
 			(at 91.44 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,7 +5715,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "100nF"
 			(at 93.98 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +5983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "100nF"
 			(at 99.06 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6077,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:1206B475K500NT")
-		(at 80.01 58.42 90)
+		(at 95.25 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6138,10 +6085,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "500998ad-ceb8-47ed-b7d1-4b70a71fc5da")
 		(property "Reference" "C111"
-			(at 83.82 57.1499 90)
+			(at 97.282 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6151,8 +6097,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1206B475K500NT"
-			(at 83.82 59.6899 90)
+		(property "Value" "4.7uF"
+			(at 97.282 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6163,7 +6109,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C1206"
-			(at 87.63 58.42 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6174,7 +6120,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-50V_C29823.html"
-			(at 90.17 58.42 0)
+			(at 105.41 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6185,7 +6131,7 @@
 			)
 		)
 		(property "Description" "4.7uF (475) ±10% 50V"
-			(at 80.01 58.42 0)
+			(at 95.25 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,7 +6142,7 @@
 			)
 		)
 		(property "Manufacturer" "FH(风华)"
-			(at 92.71 58.42 0)
+			(at 107.95 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +6153,7 @@
 			)
 		)
 		(property "MPN" "1206B475K500NT"
-			(at 95.25 58.42 0)
+			(at 110.49 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,7 +6164,7 @@
 			)
 		)
 		(property "LCSC Part" "C29823"
-			(at 97.79 58.42 0)
+			(at 113.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6661,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CL05B104KO5NNNC")
-		(at 101.6 57.15 90)
+		(at 106.68 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6723,10 +6669,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "645422d3-847c-4a26-8570-bd672768061d")
 		(property "Reference" "C105"
-			(at 105.41 55.8799 90)
+			(at 109.474 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6736,8 +6681,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 105.41 58.4199 90)
+		(property "Value" "100nF"
+			(at 109.22 57.6581 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6748,39 +6693,6 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0402"
-			(at 109.22 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
-			(at 111.76 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF (104) ±10% 16V"
-			(at 101.6 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 114.3 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6791,7 +6703,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
 			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6802,8 +6714,41 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 106.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 119.38 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6850,7 +6795,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF4701T5E"
+		(property "Value" "4.7k"
 			(at 195.58 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7201,7 +7146,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "100nF"
 			(at 66.04 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7316,7 +7261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL21B105KBFNNNE"
+		(property "Value" "1uF"
 			(at 62.23 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8054,7 +7999,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 40.64 270)
+		(at 118.11 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8065,7 +8010,7 @@
 		(fields_autoplaced yes)
 		(uuid "be12281e-3d2b-42cd-8742-d048bb991104")
 		(property "Reference" "#PWR119"
-			(at 102.87 40.64 0)
+			(at 118.11 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +8021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 40.6399 90)
+			(at 120.65 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8087,7 +8032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 40.64 0)
+			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +8043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 40.64 0)
+			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8109,7 +8054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 40.64 0)
+			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,7 +8236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 64.77 270)
+		(at 104.14 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8302,7 +8247,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1da86c3-6714-4404-baa1-a4557adb67ed")
 		(property "Reference" "#PWR120"
-			(at 95.25 64.77 0)
+			(at 97.79 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8313,7 +8258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 64.7699 90)
+			(at 100.33 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8324,7 +8269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 64.77 0)
+			(at 104.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8335,7 +8280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 64.77 0)
+			(at 104.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8346,7 +8291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 64.77 0)
+			(at 104.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8624,7 +8569,7 @@
 				)
 			)
 		)
-		(property "Value" "0402CG150J500NT"
+		(property "Value" "15pF"
 			(at 40.64 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8717,7 +8662,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 54.61 270)
+		(at 95.25 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8728,7 +8673,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1b0adf0-faf1-48a3-ac55-5283b9496af3")
 		(property "Reference" "#PWR126"
-			(at 73.66 54.61 0)
+			(at 95.25 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8739,7 +8684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 54.6099 90)
+			(at 97.79 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8750,7 +8695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 54.61 0)
+			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,7 +8706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 54.61 0)
+			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,7 +8717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 54.61 0)
+			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8796,7 +8741,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 68.58 62.23 0)
+		(at 85.09 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8807,7 +8752,7 @@
 		(fields_autoplaced yes)
 		(uuid "e511d1b5-a2ff-4630-8b70-826a0a4f6762")
 		(property "Reference" "#PWR115"
-			(at 68.58 66.04 0)
+			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8763,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 68.58 57.15 0)
+			(at 85.09 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8828,7 +8773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 62.23 0)
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8839,7 +8784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 62.23 0)
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8850,7 +8795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 68.58 62.23 0)
+			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8874,7 +8819,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CL05B104KO5NNNC")
-		(at 109.22 45.72 90)
+		(at 118.11 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8882,10 +8827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee06ab57-daf2-4033-a786-ba36e8b993ff")
 		(property "Reference" "C104"
-			(at 113.03 44.4499 90)
+			(at 120.396 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8895,8 +8839,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
-			(at 113.03 46.9899 90)
+		(property "Value" "100nF"
+			(at 120.396 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8907,7 +8851,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0402"
-			(at 116.84 45.72 0)
+			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8918,7 +8862,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
-			(at 119.38 45.72 0)
+			(at 128.27 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8929,7 +8873,7 @@
 			)
 		)
 		(property "Description" "100nF (104) ±10% 16V"
-			(at 109.22 45.72 0)
+			(at 118.11 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8940,7 +8884,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 121.92 45.72 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8951,7 +8895,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 124.46 45.72 0)
+			(at 133.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +8906,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 127 45.72 0)
+			(at 135.89 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

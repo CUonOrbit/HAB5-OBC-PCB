@@ -3091,10 +3091,22 @@
 		(uuid "74e51102-2f21-4838-a3cf-eaf5e19e2915")
 	)
 	(junction
+		(at 187.96 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "779f49b0-e931-4145-9d8f-755c5f0e9fbd")
+	)
+	(junction
 		(at 99.06 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c6ef1e0-2896-4732-bd12-4b038087ee12")
+	)
+	(junction
+		(at 180.34 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e2d6eae-a06e-40b1-a8e3-7bc63620aa18")
 	)
 	(junction
 		(at 125.73 57.15)
@@ -3546,6 +3558,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 74.93) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4d1b77-b721-444c-bf8b-2f0431b880d2")
+	)
+	(wire
+		(pts
 			(xy 152.4 43.18) (xy 269.24 43.18)
 		)
 		(stroke
@@ -3556,13 +3578,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 74.93) (xy 201.93 74.93)
+			(xy 171.45 77.47) (xy 180.34 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e29bbc4-6193-4d19-9f59-60bcaf354fae")
+		(uuid "2d15b03b-a263-441f-8070-24b7df8f50ed")
 	)
 	(bus
 		(pts
@@ -3663,16 +3685,6 @@
 			(type default)
 		)
 		(uuid "44d18136-1f8f-42e1-b9e9-57b44cbdddac")
-	)
-	(wire
-		(pts
-			(xy 190.5 77.47) (xy 201.93 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad13a2e-ce39-4f1a-93b7-653cd8b56552")
 	)
 	(bus
 		(pts
@@ -3796,6 +3808,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 77.47) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d576614-8a57-4e68-92cf-06bd3bbd0c68")
+	)
+	(wire
+		(pts
 			(xy 256.54 105.41) (xy 256.54 102.87)
 		)
 		(stroke
@@ -3803,6 +3825,16 @@
 			(type default)
 		)
 		(uuid "715ed17e-062a-448f-b902-8891060f33f2")
+	)
+	(wire
+		(pts
+			(xy 187.96 73.66) (xy 187.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ad4fd4-8703-432e-90fb-99296436df16")
 	)
 	(wire
 		(pts
@@ -4236,23 +4268,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 74.93) (xy 190.5 74.93)
+			(xy 171.45 74.93) (xy 187.96 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e13a78fe-01bb-4518-9e98-0b2b9ddafcb6")
-	)
-	(wire
-		(pts
-			(xy 171.45 77.47) (xy 180.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e23d63ca-c37c-46e9-8df8-75af9ce12bcb")
+		(uuid "dde68b95-baf7-45b5-bf14-0fb6c49e9cad")
 	)
 	(wire
 		(pts
@@ -4433,6 +4455,16 @@
 			(type default)
 		)
 		(uuid "fd7cabf6-c6e5-490a-83e3-2068f22218db")
+	)
+	(wire
+		(pts
+			(xy 180.34 77.47) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3d058a-b493-4f8a-b5a7-2f5ad9624330")
 	)
 	(label "USART1.RX"
 		(at 215.9 110.49 180)
@@ -4715,7 +4747,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:0603WAF4701T5E")
-		(at 185.42 77.47 0)
+		(at 185.42 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4725,7 +4757,7 @@
 		(dnp no)
 		(uuid "0a7b8d5a-1012-496c-8969-3407d53f6b99")
 		(property "Reference" "R102"
-			(at 185.166 83.566 0)
+			(at 185.166 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4735,7 +4767,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 185.674 81.026 0)
+			(at 185.674 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4745,7 +4777,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 185.42 85.09 0)
+			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4756,7 +4788,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C23162.html"
-			(at 185.42 87.63 0)
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4767,7 +4799,7 @@
 			)
 		)
 		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 185.42 77.47 0)
+			(at 185.42 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4778,7 +4810,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 185.42 90.17 0)
+			(at 185.42 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,7 +4821,7 @@
 			)
 		)
 		(property "MPN" "0603WAF4701T5E"
-			(at 185.42 92.71 0)
+			(at 185.42 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4800,7 +4832,7 @@
 			)
 		)
 		(property "LCSC Part" "C23162"
-			(at 185.42 95.25 0)
+			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6048,6 +6080,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 190.5 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44d3f7d2-f075-4faf-9632-9c25a06c1f4d")
+		(property "Reference" "#PWR0130"
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 194.31 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b35bedcc-2d72-4714-bb6c-c2218a69ce2e")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:1206B475K500NT")
 		(at 95.25 57.15 90)
 		(unit 1)
@@ -6746,7 +6857,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:0603WAF4701T5E")
-		(at 195.58 74.93 0)
+		(at 193.04 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6757,7 +6868,7 @@
 		(fields_autoplaced yes)
 		(uuid "6affc246-4639-46f9-a15b-b72b85bbd0f9")
 		(property "Reference" "R101"
-			(at 195.58 68.58 0)
+			(at 193.04 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6767,7 +6878,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 195.58 71.12 0)
+			(at 193.04 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6777,7 +6888,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 195.58 82.55 0)
+			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,7 +6899,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C23162.html"
-			(at 195.58 85.09 0)
+			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6799,7 +6910,7 @@
 			)
 		)
 		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 195.58 74.93 0)
+			(at 193.04 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +6921,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 195.58 87.63 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6821,7 +6932,7 @@
 			)
 		)
 		(property "MPN" "0603WAF4701T5E"
-			(at 195.58 90.17 0)
+			(at 193.04 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6943,7 @@
 			)
 		)
 		(property "LCSC Part" "C23162"
-			(at 195.58 92.71 0)
+			(at 193.04 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,6 +7042,85 @@
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5"
 					(reference "#PWR109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f2180d0-bbe6-447e-bc2c-47d69b6f5714")
+		(property "Reference" "#PWR0128"
+			(at 194.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 201.93 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 198.12 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "053542b5-1ccc-4ce4-8eef-6532fc503871")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)

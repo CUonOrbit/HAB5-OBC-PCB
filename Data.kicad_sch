@@ -1696,7 +1696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "082a8620-0861-44f5-b107-22c6fbcace5b")
-		(property "Reference" "C2"
+		(property "Reference" "C302"
 			(at 150.368 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1760,7 +1760,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/52b36e2f-dbc1-4900-a8e8-742abd2560fa"
-					(reference "C2")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -1856,7 +1856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12d8c78a-2367-4bac-8271-679cd08f0fd3")
-		(property "Reference" "C1"
+		(property "Reference" "C301"
 			(at 138.938 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,7 +1920,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/52b36e2f-dbc1-4900-a8e8-742abd2560fa"
-					(reference "C1")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -2094,7 +2094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c8a5fc9-7f77-4318-a287-0e955307d1ae")
-		(property "Reference" "R2"
+		(property "Reference" "R302"
 			(at 110.49 65.278 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2156,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/52b36e2f-dbc1-4900-a8e8-742abd2560fa"
-					(reference "R2")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2172,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7eeea3d2-762c-4712-a4b4-c3ce6da0f7a5")
 		(property "Reference" "#PWR011"
 			(at 110.49 67.31 0)
@@ -2186,14 +2185,13 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 102.87 67.3101 90)
+			(at 100.838 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2684,7 +2682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee4ab170-1cb5-4a73-8a62-bc8d15089fb0")
-		(property "Reference" "R1"
+		(property "Reference" "R301"
 			(at 171.45 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2746,7 +2744,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/52b36e2f-dbc1-4900-a8e8-742abd2560fa"
-					(reference "R1")
+					(reference "R301")
 					(unit 1)
 				)
 			)

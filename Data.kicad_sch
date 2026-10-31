@@ -2251,7 +2251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8616d658-f296-48bf-9494-7a5b99b509f3")
-		(property "Reference" "J1"
+		(property "Reference" "J301"
 			(at 140.97 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2429,7 +2429,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/52b36e2f-dbc1-4900-a8e8-742abd2560fa"
-					(reference "J1")
+					(reference "J301")
 					(unit 1)
 				)
 			)

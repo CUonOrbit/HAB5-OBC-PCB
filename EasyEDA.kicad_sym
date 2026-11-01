@@ -2412,4 +2412,592 @@
       )
     )
   )
+
+  (symbol "1206B475K500NT"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "1206B475K500NT"
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:C1206"
+      (at 0 -7.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-50V_C29823.html"
+      (at 0 -10.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "FH(风华)"
+      (at 0 -12.70 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "1206B475K500NT"
+      (at 0 -15.24 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C29823"
+      (at 0 -17.78 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+      (at 0 -20.32 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Description"
+      "4.7uF (475) ±10% 50V"
+      (at 0 -22.86 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "1206B475K500NT_0_1"
+      (polyline
+        (pts
+          (xy -0.51 2.03) (xy -0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 2.03) (xy 0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.00) (xy -0.51 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 -0.00) (xy 1.27 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin input line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "CL21B105KBFNNNE"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "CL21B105KBFNNNE"
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:C0805"
+      (at 0 -7.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B105KBFNNNE_1uF-105-10-50V_C28323.html"
+      (at 0 -10.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "SAMSUNG(三星)"
+      (at 0 -12.70 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "CL21B105KBFNNNE"
+      (at 0 -15.24 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C28323"
+      (at 0 -17.78 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+      (at 0 -20.32 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Description"
+      "1uF (105) ±10% 50V"
+      (at 0 -22.86 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "CL21B105KBFNNNE_0_1"
+      (polyline
+        (pts
+          (xy -0.51 2.03) (xy -0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 2.03) (xy 0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.00) (xy -0.51 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 -0.00) (xy 1.27 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin input line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "0603WAF1003T5E"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "0603WAF1003T5E"
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:R0603"
+      (at 0 -7.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html"
+      (at 0 -10.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "UNI-ROYAL(厚声)"
+      (at 0 -12.70 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "0603WAF1003T5E"
+      (at 0 -15.24 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C25803"
+      (at 0 -17.78 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (at 0 -20.32 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Description"
+      "100KΩ (1003) ±1%"
+      (at 0 -22.86 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "0603WAF1003T5E_0_1"
+      (rectangle
+        (start -2.54 1.02)
+        (end 2.54 -1.02)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin input line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "0603WAF3902T5E"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "0603WAF3902T5E"
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:R0603"
+      (at 0 -7.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_39KR-3902-1_C23153.html"
+      (at 0 -10.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "UNI-ROYAL(厚声)"
+      (at 0 -12.70 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "0603WAF3902T5E"
+      (at 0 -15.24 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C23153"
+      (at 0 -17.78 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (at 0 -20.32 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Description"
+      "39KΩ (3902) ±1%"
+      (at 0 -22.86 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "0603WAF3902T5E_0_1"
+      (rectangle
+        (start -2.54 1.02)
+        (end 2.54 -1.02)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin input line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "0603WAF6802T5E"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "0603WAF6802T5E"
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:R0603"
+      (at 0 -7.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_68KR-6802-1_C23231.html"
+      (at 0 -10.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "UNI-ROYAL(厚声)"
+      (at 0 -12.70 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "0603WAF6802T5E"
+      (at 0 -15.24 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C23231"
+      (at 0 -17.78 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (at 0 -20.32 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Description"
+      "68KΩ (6802) ±1%"
+      (at 0 -22.86 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "0603WAF6802T5E_0_1"
+      (rectangle
+        (start -2.54 1.02)
+        (end 2.54 -1.02)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin input line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "CL21A106KAYNNNE"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "CL21A106KAYNNNE"
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:C0805"
+      (at 0 -7.62 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html"
+      (at 0 -10.16 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "SAMSUNG(三星)"
+      (at 0 -12.70 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "CL21A106KAYNNNE"
+      (at 0 -15.24 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C15850"
+      (at 0 -17.78 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+      (at 0 -20.32 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Description"
+      "10uF (106) ±10% 25V"
+      (at 0 -22.86 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "CL21A106KAYNNNE_0_1"
+      (polyline
+        (pts
+          (xy -0.51 -0.00) (xy -2.54 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.51 2.03) (xy 0.51 -2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -0.00) (xy 0.51 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.51 -2.03) (xy -0.51 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
 )

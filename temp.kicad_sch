@@ -186,6 +186,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:0805W8F4702T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -796,197 +952,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HAB5OBC:CC0603KRX7R9BB104"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0603KRX7R9BB104"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:C0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100nF (104) ±10% 50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0603KRX7R9BB104"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C14663"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CC0603KRX7R9BB104_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1249,13 +1214,25 @@
 		(uuid "38abe8b3-812b-49df-a3b0-7aaf981b7b6e")
 	)
 	(junction
-		(at 46.99 50.8)
+		(at 45.72 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "972faccc-354d-47fd-a442-ef299bab07cb")
 	)
 	(junction
-		(at 36.83 50.8)
+		(at 107.95 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc6e03ad-9205-4956-88c7-37bc2e6c0dc4")
+	)
+	(junction
+		(at 107.95 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8acc58f-b7f8-4137-bd8d-ce949ef8e440")
+	)
+	(junction
+		(at 38.1 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faab03ae-b5c5-4e5e-bc63-083bcb7adf6d")
@@ -1284,17 +1261,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 50.8) (xy 40.64 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3e7eaf-f13b-447e-b703-950e0406520f")
-	)
-	(wire
-		(pts
-			(xy 46.99 50.8) (xy 46.99 54.61)
+			(xy 45.72 50.8) (xy 45.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1324,6 +1291,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 87.63) (xy 113.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45564009-b830-41d8-b6f3-be740cd9bf0f")
+	)
+	(wire
+		(pts
 			(xy 49.53 87.63) (xy 49.53 90.17)
 		)
 		(stroke
@@ -1334,7 +1311,27 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 50.8) (xy 36.83 54.61)
+			(xy 107.95 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d86f9c-8e79-4688-9591-bb0d09993b98")
+	)
+	(wire
+		(pts
+			(xy 44.45 53.34) (xy 45.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6859aa1d-82f4-4261-a7e8-681957019d75")
+	)
+	(wire
+		(pts
+			(xy 38.1 50.8) (xy 38.1 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1344,17 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 50.8) (xy 46.99 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ff1defd-3305-482a-a7d1-f399e98b35d2")
-	)
-	(wire
-		(pts
-			(xy 46.99 50.8) (xy 43.18 50.8)
+			(xy 43.18 50.8) (xy 63.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1371,6 +1358,26 @@
 			(type default)
 		)
 		(uuid "88fe1990-3d12-49df-908d-8fd58cddd19f")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0fa3c8-294b-4fd9-b9b9-8c4413ac02de")
+	)
+	(wire
+		(pts
+			(xy 104.14 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8f440f-0b57-4591-81f6-33ffdb8e44da")
 	)
 	(bus
 		(pts
@@ -1404,6 +1411,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 53.34) (xy 39.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4cbc5b2-58e3-4156-b05d-a2618ef0aa1c")
+	)
+	(wire
+		(pts
 			(xy 104.14 92.71) (xy 104.14 95.25)
 		)
 		(stroke
@@ -1414,7 +1431,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 50.8) (xy 36.83 50.8)
+			(xy 34.29 50.8) (xy 40.64 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1487,7 +1504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aa0bbee-da83-47bf-8c5c-00b591c1ce53")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0510"
 			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1548,7 +1565,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR010")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -1566,7 +1583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284988bf-e51f-471a-9fbd-381447c87cb3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR508"
 			(at 69.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1627,7 +1644,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR08")
+					(reference "#PWR508")
 					(unit 1)
 				)
 			)
@@ -1645,7 +1662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39039ecf-602d-44be-bd81-00e7657e4728")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR5012"
 			(at 67.31 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1706,15 +1723,15 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR012")
+					(reference "#PWR5012")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "HAB5OBC:CC0603KRX7R9BB104")
-		(at 41.91 54.61 0)
+		(lib_id "Device:C_Small")
+		(at 41.91 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1724,7 +1741,7 @@
 		(dnp no)
 		(uuid "4337cf3f-7884-4b01-8bdf-1d8516a7c5c1")
 		(property "Reference" "C501"
-			(at 41.91 58.42 0)
+			(at 41.91 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1734,7 +1751,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 41.91 60.96 0)
+			(at 41.91 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1744,7 +1761,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0603"
-			(at 41.91 62.23 0)
+			(at 41.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1755,7 +1772,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 41.91 64.77 0)
+			(at 41.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1765,8 +1782,8 @@
 				)
 			)
 		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 41.91 54.61 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1777,7 +1794,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 41.91 67.31 0)
+			(at 54.61 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +1805,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 41.91 69.85 0)
+			(at 57.15 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1799,7 +1816,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 41.91 72.39 0)
+			(at 59.69 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1825,8 +1842,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HAB5OBC:CC0603KRX7R9BB104")
-		(at 123.19 92.71 270)
+		(lib_id "Device:C_Small")
+		(at 113.03 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1837,7 +1854,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d3f5861-3486-49bf-9abc-a9f2504cf1e5")
 		(property "Reference" "C502"
-			(at 127 91.4399 90)
+			(at 115.57 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1848,7 +1865,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 127 93.9799 90)
+			(at 115.57 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1859,7 +1876,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0603"
-			(at 115.57 92.71 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1870,7 +1887,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 113.03 92.71 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1880,8 +1897,8 @@
 				)
 			)
 		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 123.19 92.71 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1892,7 +1909,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 110.49 92.71 0)
+			(at 113.03 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +1920,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 107.95 92.71 0)
+			(at 113.03 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +1931,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 105.41 92.71 0)
+			(at 113.03 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2054,85 +2071,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 123.19 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67dc8ab7-8f81-45c8-9917-580c5ea3fdfe")
-		(property "Reference" "#PWR014"
-			(at 123.19 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 123.19 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51c40db6-66b6-47f4-872d-d169deb95604")
-		)
-		(instances
-			(project "HAB5-OBC"
-				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 104.14 87.63 270)
+		(at 107.95 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2142,8 +2081,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80da5d8d-ccb3-4f1e-9b8e-7da1a19a0afd")
-		(property "Reference" "#PWR013"
-			(at 100.33 87.63 0)
+		(property "Reference" "#PWR0513"
+			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2154,7 +2093,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 107.95 87.6299 90)
+			(at 110.49 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2165,7 +2104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 87.63 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2176,7 +2115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 87.63 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,7 +2126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 104.14 87.63 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2203,85 +2142,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83a17ec8-4a34-4b7b-8405-5b31c43172dc")
-		(property "Reference" "#PWR015"
-			(at 123.19 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afc7bb43-f421-4264-a214-8f7fb30c93dc")
-		)
-		(instances
-			(project "HAB5-OBC"
-				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR015")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -2381,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99d221b2-75eb-41c1-8f22-8f2ac042d522")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR507"
 			(at 27.94 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2442,7 +2303,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR07")
+					(reference "#PWR507")
 					(unit 1)
 				)
 			)
@@ -2578,7 +2439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa24f824-0fdc-486b-9a39-be1a65abd57a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR509"
 			(at 67.31 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -2639,7 +2500,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR09")
+					(reference "#PWR509")
 					(unit 1)
 				)
 			)
@@ -2647,7 +2508,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 92.71 90)
+		(at 107.95 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2657,8 +2518,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab7fa081-3588-48cf-bf68-b88e77b6ecfb")
-		(property "Reference" "#PWR011"
-			(at 110.49 92.71 0)
+		(property "Reference" "#PWR0511"
+			(at 107.95 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,18 +2530,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 92.7099 90)
+			(at 110.49 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 92.71 0)
+			(at 107.95 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,7 +2552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 92.71 0)
+			(at 107.95 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,7 +2563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 92.71 0)
+			(at 107.95 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +2579,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/8f605a26-35be-4b99-9c84-cfd096197044"
-					(reference "#PWR011")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)

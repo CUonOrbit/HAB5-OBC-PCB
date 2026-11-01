@@ -2450,7 +2450,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2475,7 +2475,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2507,7 +2507,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2529,7 +2529,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2567,7 +2567,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2965,6 +2965,12 @@
 		(uuid "84f790e6-af8a-4260-b3c0-b05ad33c7059")
 	)
 	(junction
+		(at 85.09 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87caf1a3-a028-42bb-8f2f-89111bfeb6b3")
+	)
+	(junction
 		(at 113.03 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2977,16 +2983,16 @@
 		(uuid "c7809860-b694-44c4-b44a-56267c56dbea")
 	)
 	(junction
+		(at 184.15 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e1408e-e709-4bb2-bacf-91ed858cd1b4")
+	)
+	(junction
 		(at 77.47 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d16d2888-6ae4-464b-8f74-4de3d2bf210e")
-	)
-	(junction
-		(at 85.09 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d26d7dd5-473c-4266-92f6-470ed8dbca67")
 	)
 	(junction
 		(at 181.61 93.98)
@@ -3226,6 +3232,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 93.98) (xy 186.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd25fe0-fdac-4556-809e-183609dbd964")
+	)
+	(wire
+		(pts
 			(xy 77.47 41.91) (xy 82.55 41.91)
 		)
 		(stroke
@@ -3246,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 93.98) (xy 186.69 93.98)
+			(xy 166.37 93.98) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3336,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 82.55) (xy 130.81 82.55)
+			(xy 121.92 82.55) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4359,8 +4375,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 93.98 0)
+		(lib_id "power:+3V3")
+		(at 85.09 16.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4368,10 +4384,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1818725f-c390-4981-b7ba-bee91a63827d")
-		(property "Reference" "#PWR0412"
-			(at 189.23 97.79 0)
+		(uuid "1ab3b304-639c-4d2d-ad36-b0472b443202")
+		(property "Reference" "#PWR405"
+			(at 85.09 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,8 +4396,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 189.23 88.9 0)
+		(property "Value" "+3V3"
+			(at 84.836 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4392,7 +4407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 93.98 0)
+			(at 85.09 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 93.98 0)
+			(at 85.09 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4413,8 +4428,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 85.09 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4425,12 +4440,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3dfec72-1cce-4813-87ce-15a480ce59f9")
+			(uuid "9e83bcaf-a2f5-4972-93ba-1699ab138b2a")
 		)
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
-					(reference "#PWR0412")
+					(reference "#PWR405")
 					(unit 1)
 				)
 			)
@@ -4894,84 +4909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 128.27 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "312db82d-bcb8-4695-9cd0-d1fc9048e5f2")
-		(property "Reference" "#PWR0411"
-			(at 128.27 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 128.27 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 128.27 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24351c3d-2aa4-4eee-bbb5-f92a940e4760")
-		)
-		(instances
-			(project "HAB5-OBC"
-				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
-					(reference "#PWR0411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 53.34 0)
 		(unit 1)
@@ -5267,6 +5204,83 @@
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
 					(reference "R402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 232.41 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37258516-ecaa-4d78-9dae-c2c7d7b7a0db")
+		(property "Reference" "#PWR0410"
+			(at 232.41 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 232.156 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c57e5bd-2934-4292-ace4-479ddf298f6a")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -5925,84 +5939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 232.41 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "574d1f60-27ce-4167-a7e6-3622a06992c6")
-		(property "Reference" "#PWR0426"
-			(at 232.41 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 232.41 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 232.41 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64d43739-3914-4c19-b81f-cc89f47bb582")
-		)
-		(instances
-			(project "HAB5-OBC"
-				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
-					(reference "#PWR0426")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 237.49 83.82 180)
 		(unit 1)
@@ -6076,83 +6012,6 @@
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 85.09 16.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a1319b9-7411-49d4-ac83-eb3e93fce6f7")
-		(property "Reference" "#PWR406"
-			(at 85.09 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 84.836 13.208 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:R2512"
-			(at 85.09 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27ae6ef2-14d7-464c-92b0-b0f2c8d54b92")
-		)
-		(instances
-			(project "HAB5-OBC"
-				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
-					(reference "#PWR406")
 					(unit 1)
 				)
 			)
@@ -8291,6 +8150,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 184.15 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8e42873-10d0-49a9-ae55-986d89eae87c")
+		(property "Reference" "#PWR0406"
+			(at 184.15 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 183.896 90.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89f5d197-277c-4d20-bb57-c8091fd68c1b")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
+					(reference "#PWR0406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HAB5OBC:AO3401A")
 		(at 44.45 87.63 90)
 		(unit 1)
@@ -8401,6 +8337,83 @@
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
 					(reference "Q402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 121.92 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9f8e1d7-273b-43fd-a1b9-be283ff90391")
+		(property "Reference" "#PWR0411"
+			(at 121.92 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 121.666 79.248 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.92 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32473a49-0b1f-457e-98c0-3cd4fed84df2")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/44b3490d-0514-4ec1-a40d-1c6a92ad9ad3"
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)

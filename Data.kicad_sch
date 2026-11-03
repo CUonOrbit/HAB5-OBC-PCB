@@ -2382,7 +2382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "469e9300-a4a8-4940-a670-d2553d388853")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR308"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2443,7 +2443,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/52b36e2f-dbc1-4900-a8e8-742abd2560fa"
-					(reference "#PWR08")
+					(reference "#PWR308")
 					(unit 1)
 				)
 			)
@@ -3498,7 +3498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c401abc0-aada-4222-b70f-57b5c5597653")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR309"
 			(at 143.51 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3558,7 +3558,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/52b36e2f-dbc1-4900-a8e8-742abd2560fa"
-					(reference "#PWR09")
+					(reference "#PWR309")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,3 @@
+# Store 3D models exactly as-is (no line-ending conversion)
+*.step -text
+*.stp -text

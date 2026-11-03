@@ -457,7 +457,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -475,7 +475,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -622,7 +622,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "VDD"
@@ -640,7 +640,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "OUT"
@@ -658,7 +658,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -805,7 +805,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 3.81 0)
 					(length 2.54)
 					(name "SDA"
@@ -823,7 +823,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 1.27 0)
 					(length 2.54)
 					(name "SCL"
@@ -841,7 +841,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "Alert"
@@ -859,7 +859,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -15.24 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -877,7 +877,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 -3.81 180)
 					(length 2.54)
 					(name "A2"
@@ -895,7 +895,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 -1.27 180)
 					(length 2.54)
 					(name "A1"
@@ -913,7 +913,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 1.27 180)
 					(length 2.54)
 					(name "A0"
@@ -931,7 +931,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 3.81 180)
 					(length 2.54)
 					(name "VDD"

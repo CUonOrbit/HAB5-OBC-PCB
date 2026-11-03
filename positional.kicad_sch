@@ -286,7 +286,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -16.51 3.81 0)
 					(length 2.54)
 					(name "SDO/SA0"
@@ -304,7 +304,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -16.51 1.27 0)
 					(length 2.54)
 					(name "SDX"
@@ -322,7 +322,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -16.51 -1.27 0)
 					(length 2.54)
 					(name "SCX"
@@ -340,7 +340,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -16.51 -3.81 0)
 					(length 2.54)
 					(name "INT1"
@@ -358,7 +358,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -15.24 90)
 					(length 2.54)
 					(name "VDD_IO"
@@ -376,7 +376,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -15.24 90)
 					(length 2.54)
 					(name "GND"
@@ -394,7 +394,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 2.54 -15.24 90)
 					(length 2.54)
 					(name "GND"
@@ -412,7 +412,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 16.51 -5.08 180)
 					(length 2.54)
 					(name "VDD"
@@ -430,7 +430,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 16.51 -2.54 180)
 					(length 2.54)
 					(name "INT2"
@@ -448,7 +448,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 16.51 0 180)
 					(length 2.54)
 					(name "OCS_AUX"
@@ -466,7 +466,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 16.51 2.54 180)
 					(length 2.54)
 					(name "SDO_AUX"
@@ -484,7 +484,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 2.54 15.24 270)
 					(length 2.54)
 					(name "CS"
@@ -502,7 +502,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 15.24 270)
 					(length 2.54)
 					(name "SCL"
@@ -520,7 +520,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -2.54 15.24 270)
 					(length 2.54)
 					(name "SDA"
@@ -667,7 +667,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "VDD"
@@ -685,7 +685,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "PS"
@@ -703,7 +703,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -721,7 +721,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "CSB"
@@ -739,7 +739,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -3.81 180)
 					(length 2.54)
 					(name "CSB"
@@ -757,7 +757,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 12.7 -1.27 180)
 					(length 2.54)
 					(name "SDO"
@@ -775,7 +775,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "SDI/SDA"
@@ -793,7 +793,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "SCLK"
@@ -1176,6 +1176,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f56d9e1d-9bad-42b1-bef1-527982a880e7")
+	)
+	(no_connect
+		(at 88.9 81.28)
+		(uuid "00f1e333-1022-49ed-b8b1-07c49aee345a")
+	)
+	(no_connect
+		(at 83.82 81.28)
+		(uuid "050e005e-f414-49c2-9589-f6a82d0c1d8e")
+	)
+	(no_connect
+		(at 66.04 109.22)
+		(uuid "0fc44fd1-04e4-4842-8574-c5fee2c34a0d")
+	)
+	(no_connect
+		(at 90.17 114.3)
+		(uuid "5ab64c71-edab-4920-9a3e-cb48668a3d8c")
+	)
+	(no_connect
+		(at 86.36 81.28)
+		(uuid "7af7fc46-99f9-4bcd-851b-022858bc3ba0")
 	)
 	(bus_entry
 		(at 40.64 92.71)
@@ -1718,7 +1738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd9d995-1a4a-40e8-aec6-af4dd0dd93ae")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR202"
 			(at 88.9 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -1778,7 +1798,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "#PWR02")
+					(reference "#PWR202")
 					(unit 1)
 				)
 			)
@@ -1796,7 +1816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "465d114c-dd9c-45ac-8e46-ee65cdb121bc")
-		(property "Reference" "C3"
+		(property "Reference" "C203"
 			(at 66.04 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,7 +1878,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "C3")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7462524d-cb32-4128-8883-dcabe785bb36")
-		(property "Reference" "C2"
+		(property "Reference" "C202"
 			(at 109.22 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1940,7 +1960,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "C2")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -1958,7 +1978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79c11ed0-8b7b-4de2-b890-ffa6c4053883")
-		(property "Reference" "U4"
+		(property "Reference" "U202"
 			(at 72.39 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2073,7 +2093,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "U4")
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a175face-bde8-4827-958e-873ac8d50c7f")
-		(property "Reference" "C1"
+		(property "Reference" "C201"
 			(at 113.03 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2175,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "C1")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -2173,7 +2193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6382ade-6b74-4a3a-b9b6-d50914498cbf")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR201"
 			(at 115.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2233,7 +2253,84 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "#PWR01")
+					(reference "#PWR201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd21e356-37b6-456e-8d90-8f5bd502a126")
+		(property "Reference" "#PWR0203"
+			(at 68.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "634585c2-f2c6-4208-a921-47854b360421")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -2251,7 +2348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e14ce7ac-260e-43b6-ad28-1d1d21bcd92f")
-		(property "Reference" "U3"
+		(property "Reference" "U201"
 			(at 107.95 89.8046 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2382,7 +2479,7 @@
 		(instances
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "U3")
+					(reference "U201")
 					(unit 1)
 				)
 			)

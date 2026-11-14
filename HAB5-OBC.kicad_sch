@@ -8551,7 +8551,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 195.58 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8822,7 +8822,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 193.04 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)

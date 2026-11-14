@@ -3151,10 +3151,6 @@
 		(uuid "fa5767d4-e3cb-4258-8700-ea31fc3566e1")
 	)
 	(no_connect
-		(at 125.73 92.71)
-		(uuid "15d3d854-759f-4e71-9040-dfbf8290f62a")
-	)
-	(no_connect
 		(at 125.73 87.63)
 		(uuid "17d3b256-c108-4b80-9877-633cd57e728a")
 	)
@@ -3857,6 +3853,16 @@
 			(type default)
 		)
 		(uuid "5f1afeeb-fd1d-4947-9ef1-f91cb4aa87e7")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6111f16a-eb67-41be-849d-971d726ef360")
 	)
 	(wire
 		(pts
@@ -7912,6 +7918,82 @@
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5"
 					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 110.49 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "979f5abc-f464-4b51-a032-f2f66c778980")
+		(property "Reference" "J102"
+			(at 110.744 88.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 110.744 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 110.49 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fad5be6b-2e50-46b7-b6ed-6e3309224669")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5"
+					(reference "J102")
 					(unit 1)
 				)
 			)

@@ -5,42 +5,34 @@
 	(uuid "7fca4de9-7d4e-4bcf-80a2-8298309c3567")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "EasyEDA:CL05B104KO5NNNC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "CL05B104KO5NNNC"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "EasyEDA:C0402"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -50,7 +42,18 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100nF (104) ±10% 16V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -61,7 +64,40 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CL05B104KO5NNNC"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C1525"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -72,35 +108,13 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
+			(symbol "CL05B104KO5NNNC_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -0.51 0) (xy -2.54 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -109,22 +123,44 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -0.51 -2.03) (xy -0.51 2.03)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "C_1_1"
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -140,9 +176,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1088,6 +1124,12 @@
 		(uuid "1a37d928-ec69-4d4b-a078-58ce8d880510")
 	)
 	(junction
+		(at 109.22 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fddd20a-e1fb-448d-bfab-76ad9a2e41bf")
+	)
+	(junction
 		(at 101.6 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1097,13 +1139,7 @@
 		(at 105.41 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ad2eddc-7fdc-4f24-97f0-b2324fbfcd8b")
-	)
-	(junction
-		(at 105.41 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ed907c9-b3c8-456d-be64-126c3fb4fc37")
+		(uuid "3f7ac797-3210-456c-93b3-16bb1c534db5")
 	)
 	(junction
 		(at 88.9 138.43)
@@ -1118,10 +1154,10 @@
 		(uuid "7e1f6e48-2545-4f6d-bba5-f1d78c21772d")
 	)
 	(junction
-		(at 105.41 96.52)
+		(at 105.41 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81d2d1eb-6dd3-49db-b306-88ddcc7a8c7c")
+		(uuid "9ee9bf47-8e88-4418-822d-15bcf48205fb")
 	)
 	(junction
 		(at 60.96 134.62)
@@ -1130,10 +1166,10 @@
 		(uuid "a4226c2a-965d-4e52-b3c0-94cb970bdc3a")
 	)
 	(junction
-		(at 109.22 100.33)
+		(at 105.41 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2af77de-d3aa-4f99-b897-cf603b76d768")
+		(uuid "e63326e9-1b6e-45de-873a-4750e7e33c32")
 	)
 	(junction
 		(at 66.04 134.62)
@@ -1253,16 +1289,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 138.43) (xy 105.41 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0988f155-68a3-47fc-8bb7-051d747a5c0e")
-	)
-	(wire
-		(pts
 			(xy 63.5 109.22) (xy 63.5 104.14)
 		)
 		(stroke
@@ -1270,6 +1296,16 @@
 			(type default)
 		)
 		(uuid "0cf2e646-42ea-48d4-b583-1681510584ed")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df67b57-6a63-4b75-8518-1f7517b0cbd5")
 	)
 	(wire
 		(pts
@@ -1313,16 +1349,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 107.95) (xy 109.22 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225b2ad8-0602-45d6-a4cc-a5cfbaff6439")
-	)
-	(wire
-		(pts
 			(xy 63.5 100.33) (xy 71.12 100.33)
 		)
 		(stroke
@@ -1330,6 +1356,16 @@
 			(type default)
 		)
 		(uuid "24785d17-f1c7-4fc0-bc37-d11b077949a0")
+	)
+	(wire
+		(pts
+			(xy 105.41 110.49) (xy 105.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26269c95-4160-4cc8-b9e6-c414c56ae68c")
 	)
 	(wire
 		(pts
@@ -1360,26 +1396,6 @@
 			(type default)
 		)
 		(uuid "27b9c9cf-3531-4b2b-afa7-d2dbc19489d3")
-	)
-	(wire
-		(pts
-			(xy 105.41 88.9) (xy 105.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a1ca4f8-167d-40ab-92a5-100fa2a288da")
-	)
-	(wire
-		(pts
-			(xy 105.41 81.28) (xy 110.49 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e9b64a-8adf-4916-8787-f269a2b86d5a")
 	)
 	(wire
 		(pts
@@ -1443,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 105.41 81.28)
+			(xy 91.44 81.28) (xy 110.49 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1490,6 +1506,16 @@
 			(type default)
 		)
 		(uuid "66801b3c-2159-4dc7-b1c6-2994e67ada80")
+	)
+	(wire
+		(pts
+			(xy 105.41 110.49) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7534c3fe-e452-4285-babb-17e2c02da611")
 	)
 	(wire
 		(pts
@@ -1593,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 100.33) (xy 115.57 100.33)
+			(xy 101.6 100.33) (xy 109.22 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 107.95) (xy 105.41 96.52)
+			(xy 105.41 96.52) (xy 105.41 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1660,16 +1686,6 @@
 			(type default)
 		)
 		(uuid "aa2dc3eb-5321-4aa0-b1e0-6ec552c6afd1")
-	)
-	(wire
-		(pts
-			(xy 101.6 100.33) (xy 109.22 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adff4bea-b2c5-4d27-8eae-7494f625c48d")
 	)
 	(wire
 		(pts
@@ -1763,16 +1779,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 77.47 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73f5543-8de1-4830-9d6f-d3407ec1a857")
-	)
-	(wire
-		(pts
 			(xy 82.55 114.3) (xy 85.09 114.3)
 		)
 		(stroke
@@ -1780,6 +1786,26 @@
 			(type default)
 		)
 		(uuid "ddba8377-1d48-40de-8ee8-974706d30d81")
+	)
+	(wire
+		(pts
+			(xy 72.39 144.78) (xy 77.47 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3b51ce-9d9f-4aa3-af6d-cdfc58d2a018")
+	)
+	(wire
+		(pts
+			(xy 105.41 91.44) (xy 105.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4769c9f-65cc-4a08-b570-6e7d1dbf331a")
 	)
 	(bus
 		(pts
@@ -1992,168 +2018,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 66.04 144.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "465d114c-dd9c-45ac-8e46-ee65cdb121bc")
-		(property "Reference" "C203"
-			(at 66.04 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 66.04 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 143.8148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "14d9686b-533b-4944-bca1-c94a39afe17c")
-		)
-		(pin "1"
-			(uuid "b066a85f-2b51-4c15-9a95-d1327a1544d5")
-		)
-		(instances
-			(project "HAB5-OBC"
-				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 105.41 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7462524d-cb32-4128-8883-dcabe785bb36")
-		(property "Reference" "C202"
-			(at 109.22 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 109.22 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.3752 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "657b6203-247c-40c2-82f9-f59c4db563b1")
-		)
-		(pin "1"
-			(uuid "59eabddb-4c00-480f-b507-ef0feba193e8")
-		)
-		(instances
-			(project "HAB5-OBC"
-				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
-					(reference "C202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:MS561101BA03-50")
 		(at 64.77 121.92 90)
 		(unit 1)
@@ -2287,8 +2151,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 109.22 104.14 0)
+		(lib_id "EasyEDA:CL05B104KO5NNNC")
+		(at 67.31 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2296,32 +2160,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a175face-bde8-4827-958e-873ac8d50c7f")
-		(property "Reference" "C201"
-			(at 113.03 102.8699 0)
+		(uuid "85471cdd-2e10-4fb0-be0c-73ae94584ae5")
+		(property "Reference" "C203"
+			(at 70.104 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 113.03 105.4099 0)
+		(property "Value" "100nF"
+			(at 70.104 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.1852 107.95 0)
+		(property "Footprint" "EasyEDA:C0402"
+			(at 67.31 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,8 +2194,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 109.22 104.14 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+			(at 67.31 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2342,8 +2205,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 109.22 104.14 0)
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 67.31 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 67.31 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 67.31 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 67.31 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2354,10 +2250,124 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc960dd7-b847-4ab5-ab81-d0b369fb9532")
+			(uuid "479985fd-35db-433e-84b5-f849f6efc0ef")
 		)
 		(pin "1"
-			(uuid "e601ac30-b648-47e0-bcab-5d482c43cd35")
+			(uuid "0b5f5c2c-2656-42d9-9c5a-233e3f52c8b9")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:CL05B104KO5NNNC")
+		(at 109.22 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5e90b42-a10c-4314-a0a6-ea400c4f3bf2")
+		(property "Reference" "C201"
+			(at 103.378 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 105.918 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:C0402"
+			(at 101.6 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+			(at 99.06 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 109.22 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 91.44 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a4b58ea-90ea-4385-b676-21cd7590b980")
+		)
+		(pin "1"
+			(uuid "5015e619-6de5-4e8c-b935-404573d28c09")
 		)
 		(instances
 			(project "HAB5-OBC"
@@ -2518,6 +2528,120 @@
 			(project "HAB5-OBC"
 				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
 					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:CL05B104KO5NNNC")
+		(at 105.41 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e07bc562-bfca-4031-a645-56d81ba32d50")
+		(property "Reference" "C202"
+			(at 99.568 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 102.108 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:C0402"
+			(at 97.79 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+			(at 95.25 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 90.17 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 87.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46b82931-a154-498e-9129-9165af0f4751")
+		)
+		(pin "1"
+			(uuid "a0902187-6dc3-459c-b915-53e3fd0859cf")
+		)
+		(instances
+			(project "HAB5-OBC"
+				(path "/8bfdc6b4-3580-4cad-aef7-df6abccc03e5/7953323f-21d3-4093-b5fe-b40da7763914"
+					(reference "C202")
 					(unit 1)
 				)
 			)

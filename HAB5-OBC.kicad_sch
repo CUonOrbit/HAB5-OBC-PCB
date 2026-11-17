@@ -3091,7 +3091,7 @@
 		(uuid "74e51102-2f21-4838-a3cf-eaf5e19e2915")
 	)
 	(junction
-		(at 187.96 74.93)
+		(at 189.23 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "779f49b0-e931-4145-9d8f-755c5f0e9fbd")
@@ -3438,7 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 130.81) (xy 189.23 130.81)
+			(xy 171.45 130.81) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3645,16 +3645,6 @@
 			(type default)
 		)
 		(uuid "29443315-d0a1-4443-a736-8b377cc31ed5")
-	)
-	(wire
-		(pts
-			(xy 187.96 74.93) (xy 201.93 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a4d1b77-b721-444c-bf8b-2f0431b880d2")
 	)
 	(bus
 		(pts
@@ -3988,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 73.66) (xy 187.96 74.93)
+			(xy 189.23 73.66) (xy 189.23 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4476,6 +4466,16 @@
 		)
 		(uuid "d9faf2a0-42d8-4975-993c-029a1d1aa199")
 	)
+	(wire
+		(pts
+			(xy 199.39 73.66) (xy 198.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae2a019-b48f-46d4-bdaf-10bdc9d50d13")
+	)
 	(bus
 		(pts
 			(xy 191.77 -81.28) (xy 191.77 95.25)
@@ -4488,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 74.93) (xy 187.96 74.93)
+			(xy 171.45 74.93) (xy 201.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6131,7 +6131,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 194.31 130.81 180)
+		(at 186.69 130.81 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6141,7 +6141,7 @@
 		(dnp no)
 		(uuid "2cc04f84-2547-4ecc-a3e5-9d6a45c5aaae")
 		(property "Reference" "J101"
-			(at 194.056 135.382 0)
+			(at 186.436 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6151,7 +6151,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 194.056 133.096 0)
+			(at 186.436 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6160,8 +6160,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 130.81 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 186.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +6172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 130.81 0)
+			(at 186.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +6183,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 194.31 130.81 0)
+			(at 186.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6524,7 +6524,7 @@
 		(dnp no)
 		(uuid "5304da52-e035-4897-a640-7da65e4ad936")
 		(property "Reference" "R104"
-			(at 193.04 68.58 0)
+			(at 194.564 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6534,7 +6534,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 193.04 60.706 0)
+			(at 193.802 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6655,7 +6655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 255.27 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7209,7 +7209,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:0603WAF4701T5E")
-		(at 193.04 73.66 0)
+		(at 194.31 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7219,7 +7219,7 @@
 		(dnp no)
 		(uuid "6affc246-4639-46f9-a15b-b72b85bbd0f9")
 		(property "Reference" "R103"
-			(at 193.04 63.246 0)
+			(at 194.564 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7229,7 +7229,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 193.294 71.12 0)
+			(at 194.564 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7239,7 +7239,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 193.04 81.28 0)
+			(at 194.31 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7250,7 +7250,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C23162.html"
-			(at 193.04 83.82 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7261,7 +7261,7 @@
 			)
 		)
 		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 193.04 73.66 0)
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7272,7 +7272,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 193.04 86.36 0)
+			(at 194.31 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7283,7 +7283,7 @@
 			)
 		)
 		(property "MPN" "0603WAF4701T5E"
-			(at 193.04 88.9 0)
+			(at 194.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +7294,7 @@
 			)
 		)
 		(property "LCSC Part" "C23162"
-			(at 193.04 91.44 0)
+			(at 194.31 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8147,7 +8147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8223,7 +8223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 255.27 82.55 0)
 			(hide yes)
 			(show_name no)

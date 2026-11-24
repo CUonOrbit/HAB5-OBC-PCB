@@ -3304,6 +3304,12 @@
 		(uuid "4b036bf3-0ff9-4c23-bf40-055945feb0c5")
 	)
 	(junction
+		(at 63.5 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c9f2287-43be-4932-a71c-894b9bbbf6aa")
+	)
+	(junction
 		(at 128.27 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3462,6 +3468,16 @@
 			(type default)
 		)
 		(uuid "126603ee-f7d2-43f1-9659-5ff2e83e65e0")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f78c92-bf8d-4c0a-89bb-4c6803f9cd85")
 	)
 	(wire
 		(pts
@@ -3795,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 67.31 41.91)
+			(xy 62.23 41.91) (xy 63.5 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3902,6 +3918,16 @@
 			(type default)
 		)
 		(uuid "ba8868bb-43e7-4133-9bb0-67f0f2a4aa52")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9b9732-3a8d-4f37-857e-9209262888dc")
 	)
 	(wire
 		(pts
@@ -4063,7 +4089,7 @@
 		)
 		(uuid "1d30a1f9-7206-4e6e-abff-c5fb4a080aef")
 	)
-	(label "Battery_IN-"
+	(label "VBAT_IN-"
 		(at 24.13 52.07 180)
 		(effects
 			(font
@@ -4073,7 +4099,7 @@
 		)
 		(uuid "23f3876a-dae9-4373-a9b6-db30c7bec9ad")
 	)
-	(label "Bench_IN-"
+	(label "VBENCH_IN-"
 		(at 25.4 96.52 180)
 		(effects
 			(font
@@ -4082,6 +4108,36 @@
 			(justify right bottom)
 		)
 		(uuid "27632501-7a3c-492e-bc9e-cccf85b0600b")
+	)
+	(label "VBENCH_FUSED"
+		(at 71.12 85.09 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "4181983e-7b32-48d6-a0a3-32e2d256ba33")
+	)
+	(label "VBAT_FUSED"
+		(at 63.5 45.72 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "72d125ea-e6bb-459f-9743-0fa930a3dc4e")
+	)
+	(label "VBAT_LDO"
+		(at 77.47 41.91 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a9d1353-9af7-405a-ac19-4366eaa0e1cd")
 	)
 	(label "CP2"
 		(at 130.81 87.63 180)
@@ -4103,7 +4159,17 @@
 		)
 		(uuid "92669ffb-59dc-4b6a-921a-7c42bd9c8fff")
 	)
-	(label "Bench_IN+"
+	(label "VBENCH_RP"
+		(at 50.8 85.09 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b67f180-308f-4c04-850a-6a5e851baa33")
+	)
+	(label "VBENCH_IN+"
 		(at 25.4 85.09 180)
 		(effects
 			(font
@@ -4123,7 +4189,7 @@
 		)
 		(uuid "b1ffeffe-98e4-405f-a90a-c4c1fa34e9df")
 	)
-	(label "Battery_IN+"
+	(label "VBAT_IN+"
 		(at 24.13 41.91 180)
 		(effects
 			(font
@@ -4142,6 +4208,16 @@
 			(justify right bottom)
 		)
 		(uuid "dbea379f-d9ea-4a60-8240-ab2f46c11c43")
+	)
+	(label "VBAT_RP"
+		(at 46.99 41.91 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "e43fbb2f-91ac-42a3-9711-d36d2f97fca5")
 	)
 	(label "OV2"
 		(at 107.95 82.55 180)

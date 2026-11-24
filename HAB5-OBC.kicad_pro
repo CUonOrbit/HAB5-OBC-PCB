@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0889,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.005,
@@ -219,6 +219,7 @@
         0.3048,
         0.4064,
         0.5,
+        0.603,
         0.8128
       ],
       "tuning_pattern_settings": {
@@ -570,28 +571,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3048,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.0889,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Smallest",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0889,
-        "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_drill": 0.0,
         "wire_width": 6
       }
     ],
@@ -600,7 +583,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "*VBAT_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*VBENCH_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*LDO_OUT*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

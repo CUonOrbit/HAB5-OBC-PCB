@@ -778,7 +778,7 @@
         "uuid": "8bfdc6b4-3580-4cad-aef7-df6abccc03e5"
       }
     ],
-    "used_designators": "X1,#FLG1-3,Card1,J1-6,J603,LED1-8,F1-2,SW1,C1-26,C112,C204,C304,U1-9,Q1-2,D1,#PWR1-47,#PWR426,#PWR428,R1-36,R106,R306,R314-317",
+    "used_designators": "R1-36,R106,R306,R314-317,F1-2,SW1,U1-9,C1-26,C112,C204,C304,D1,#PWR1-47,#PWR204-212,#PWR426,#PWR428,Q1-2,LED1-8,J1-6,J603,Card1,#FLG1-3,X1",
     "variants": []
   },
   "sheets": [

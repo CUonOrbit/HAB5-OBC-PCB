@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 1.728,
+          "width": 1.19
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -578,15 +575,15 @@
         "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
-        "via_drill": 0.0,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -625,7 +622,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -781,7 +778,7 @@
         "uuid": "8bfdc6b4-3580-4cad-aef7-df6abccc03e5"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR426,#PWR428,C1,C112,C204,C304,J1-2,J603,LED1,R1,R106,R306,R314-317,U1-2",
+    "used_designators": "X1,#FLG1-3,Card1,J1-6,J603,LED1-8,F1-2,SW1,C1-26,C112,C204,C304,U1-9,Q1-2,D1,#PWR1-47,#PWR426,#PWR428,R1-36,R106,R306,R314-317",
     "variants": []
   },
   "sheets": [
